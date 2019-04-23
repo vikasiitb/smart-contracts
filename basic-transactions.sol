@@ -1,9 +1,8 @@
 pragma solidity ^0.4.19;
 
-// @Simplistic banking solutions
-// @author vikasiitb
+//examples of basic banking transactions for learning solidity
 
-contract SimpleBank {
+contract BasicBanking {
     
     mapping (address => uint) private balances;
     address public owner;
